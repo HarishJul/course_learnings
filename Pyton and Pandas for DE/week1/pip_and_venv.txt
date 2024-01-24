@@ -1,0 +1,19 @@
+PIP
+---------------------------------
+pip install requests
+pip list (displays in kind of a tabular format)
+pip install requests --upgrade
+pip install requests==2.25.1
+
+pip freeze --(displays all installed libraries in an usable and instalable format (eg: requests==2.25.1))
+pip freeze > requirements.txt (outputs all installed libraries to a txt file)
+pip install -r requirements.txt (to install all modules in requirements.txt file)
+
+
+venvs
+-------------------------------------
+mkdir my_first_project
+cd my_first_project
+python -m venv my_env (This command created a folder my_env in the working directory with bin,include,lib and some config files)
+source my_env/bin/activate (To activate your venv. source command reads and executes given files)
+deactivate
