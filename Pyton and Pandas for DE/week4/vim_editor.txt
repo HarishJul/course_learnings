@@ -1,0 +1,78 @@
+Modes:
+-----------------------------------------
+Normal
+Visual
+Insert
+Command Line
+
+To get from any mode to Normal mode you press Esc.
+
+Basic Navigation:
+------------------------------------
+h-left
+j-down
+k-up
+l-right
+
+5+l - 5 spaces right
+
+Etended Navigation:
+-------------------------------------------
+w - word
+b - word beginning
+e - word end
+gg-top of file
+G - bottom of file
+
+Yanking, Pasting, Deleting
+---------------------------------------------
+y - copy highlighted text
+yw - copy word
+yy - copy line
+p - paste
+x - delete character
+dd - delete line
+
+Normal Mode to Insert Mode
+----------------------------------------------
+iI aA oO
+i - before current position of cursor
+I - before current line
+a - after cursor
+A - after end of line
+o - new line below
+O - new line above
+
+Normal to Visual mode
+------------------------------------------------
+v V ctrl+v
+v - by character
+V - by line
+ctl-v - visual block
+
+Switching to command line
+-------------------------------------------------
+: / ?
+
+: - execute command
+/ - search down
+? - search up
+:! - filter command
+
+Basic commands
+------------------------------------------------
+help - documentation
+q - close buffer
+w - save buffer
+e - open file
+new - new buffer
+sav - save buffer as
+
+:wq - save and close buffer
+
+Search Commands
+-------------------------------------------------
+/ - Search ahead
+? - Search back
+n - next match
+N - previous match
